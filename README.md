@@ -532,7 +532,7 @@ v = game.ReplicatedStorage.Moves.DragonTaunt["Sound"]
 else
 v = Instance.new("StringValue", game.ReplicatedStorage.Moves.DragonTaunt)
 end
-v.Value = 'Laugh'
+v.Value = 'Yell'
 v.Name = "Sound"
 if game.ReplicatedStorage.Moves.DragonTaunt:FindFirstChild("NoDmg") then
 v = game.ReplicatedStorage.Moves.DragonTaunt["NoDmg"]
