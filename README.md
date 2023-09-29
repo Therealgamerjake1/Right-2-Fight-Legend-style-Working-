@@ -496,8 +496,7 @@ v.Value = '15'
 v.Name = "Within"
                                                                                                                                                                                                                                                                                                                                                                                                                                                 main.Heat.noheattho.Text = "Heat Actions Disabled"
 	                                                                                                                                                                                                                                                                                                                                                                                                                                            main.Heat.noheattho.Size = UDim2.new(10, 0, 1, 0)
- 
-	                                                                                                                                                                                                                                                                                                                                                                                                                                            menu.Bars.Mobile_Title.Text = "Thy Punishment Is Death"
+menu.Bars.Mobile_Title.Text = "Make sure they suffer!"
 	                                                                                                                                                                                                                                                                                                                                                                                                                                            menu.Bars.Mobile_Title.Visible = true
 --------------------------Taunt-----------------------------------
 if game.ReplicatedStorage.Moves:FindFirstChild("DragonTaunt") then
@@ -1510,7 +1509,7 @@ Main.HeatMove.TextLabel:GetPropertyChangedSignal("Text"):Connect(function()
         Anim.Priority = Enum.AnimationPriority.Action4
         Anim:AdjustSpeed(0.9)
         Anim:Play()
-	play_ingamesound("ChargeAlert")
+	play_ingamesound("Ignite")
         play_ingamesound("Ignite")
         play_ingamesound("Laugh")
         task.wait(0.4)
