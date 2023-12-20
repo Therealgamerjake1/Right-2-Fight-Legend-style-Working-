@@ -496,7 +496,7 @@ v.Value = '15'
 v.Name = "Within"
                                                                                                                                                                                                                                                                                                                                                                                                                                                 main.Heat.noheattho.Text = "Heat Actions Disabled"
 	                                                                                                                                                                                                                                                                                                                                                                                                                                            main.Heat.noheattho.Size = UDim2.new(10, 0, 1, 0)
-menu.Bars.Mobile_Title.Text = "10 YEARS IN THE JOINT MAKE YOU A FUCKING PUSSY!"
+
 	                                                                                                                                                                                                                                                                                                                                                                                                                                            menu.Bars.Mobile_Title.Visible = true
 --------------------------Taunt-----------------------------------
 if game.ReplicatedStorage.Moves:FindFirstChild("DragonTaunt") then
@@ -1759,6 +1759,8 @@ local function sendNotification(text, color, sound)
     end)
     notifyevent:Fire(text, sound or nil)
 end
+
+menu.Bars.Mobile_Title.Text = "Jake Legend style!"
 
 local uis = game:GetService("UserInputService")
 local rushstyle = game.ReplicatedStorage.Styles.Rush
